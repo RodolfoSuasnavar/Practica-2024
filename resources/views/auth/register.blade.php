@@ -29,12 +29,12 @@
                     @enderror
                 </div>
 
-                <div class="form-group">
-                    <label for="email">Correo electrónico</label>
-                    <input id="email" type="email" name="email" value="{{ old('email') }}" required
-                    placeholder="Coloca tu correo" autocomplete="off">
+                <div class = "form-group">
+                    <label for="email">Correo electronico</label>
+                    <input type="email" name="email" id="email" value ="{{ old('email')}}" required 
+                    placeholder = "Coloca tu correo" autocomplete="off">
                     @error('email')
-                        <span class="text-danger">{{ $message }}</span>
+                    <span class="text-danger">{{ $message }}</span>
                     @enderror
                 </div>
 
